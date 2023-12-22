@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="d-flex justify-content-center align-items-center vh-100">
+
+
+
+
+        <form method="POST" action="register.php" class="w-25 bg-info p-3" onsubmit="return validate()">
+
+            <div class="text-center">
+                <h3>
+                    <p style="color: black;">Register here...</p>
+                </h3>
+            </div>
+            <input name="username" required class="form-control mt-2" type="text" placeholder="Username">
+            <input name="pass1" id="pass1" required class="form-control mt-2" type="password" placeholder="Password">
+            <input name="pass2" id="pass2" required class="form-control mt-2" type="password"
+                placeholder="Confirm Password">
+
+            <div class="text-center mt-3">
+                <button class="btn btn-success">Submit</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="../shared/login.html" class="login-link">Login</a></p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center mt-3">
+        <img src="" alt="Image" width="300" height="200">
+    </div>
+
+    <script>
+        function validate() {
+            pass1obj - document.getElementById("pass1");
+            pass1obj - document.getElementById("pass2");
+            if (pass1obj.value === pass2obj.value) {
+                return true
+            }
+            else {
+                alert("Password Mismatch");
+                return false;
+            }
+        }
+    </script>
+</body>
+
+</html>
