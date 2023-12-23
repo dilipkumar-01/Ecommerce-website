@@ -1,6 +1,6 @@
 An Ecommerce website serves as a digital platform where businesses and customers interact, buy, and sell goods or services over the internet. It's essentially an online store that facilitates transactions between buyers and sellers. Here's a brief rundown:
 
-Functionality:
+FUNCTIONALITY:
 Product Catalog: Showcase products or services with detailed descriptions, images, and prices organized into categories and subcategories.
 User Accounts: Allow users to create accounts, manage personal information, track orders, and maintain a shopping cart.
 Shopping Cart: Enable users to add items for purchase, review them, and proceed to checkout.
@@ -15,11 +15,11 @@ SEO Optimization: Optimize content and structure for better visibility in search
 Analytics: Integrate tools to track user behavior, sales trends, and website performance.
 Customer Support: Provide channels for customer queries, live chat, FAQs, and support tickets.
 
-Technologies:
+TECHNOLOGIES:
 Frontend: HTML, CSS, JavaScript for dynamic and responsive interfaces.
 Backend: PHP for server-side language. Databases like MySQL for data storage.
 
-Conclusion:
+CONCLUSION:
 An eCommerce website essentially brings the shopping experience online, providing convenience, a wide range of choices, and accessibility to a global audience. Its success relies on an intuitive user interface, robust functionality, and secure transactions to foster trust and encourage repeat business.
 
 EXECUTING PHP PROJECT WITH SQL DATABASE ON "000webhost.com":
